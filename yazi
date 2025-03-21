@@ -3,3 +3,14 @@ sudo apt install ffmpeg 7zip jq poppler-utils fd-find ripgrep fzf zoxide imagema
 sudo snap install yazi --classic
 '''
 
+'''
+fc-list | grep Nerd
+
+If the font/icons is missing, install it:
+
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts
+wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Hack.zip
+unzip Hack.zip
+fc-cache -fv
+'''
