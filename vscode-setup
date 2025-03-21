@@ -38,13 +38,19 @@ filename : custom.css
     font-size: 13px !important;
 }
 
-Go to file user settings.json and add below lines
+### Go to file user settings.json and add below lines
 
   "vscode_custom_css.imports": [
         "file:///home/username/Documents/Programming/misc/custom.css"
   ],
   "vscode_custom_css.enabled": true
 
+### setting editor font family
+'Iosevka','Droid Sans Mono', 'monospace', monospace
+
+terminal font : 15 Px
+
+window zoom level : 1.1
 
 run below command in terminal:
 
