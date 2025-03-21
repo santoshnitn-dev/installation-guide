@@ -1,0 +1,7 @@
+cd ~/Downloads
+wget https://github.com/be5invis/Iosevka/releases/download/v33.1.0/PkgTTC-Iosevka-33.1.0.zip
+sudo apt update
+sudo apt install font-manager
+unzip PkgTTC-Iosevka-33.1.0.zip -d iosevka-font
+sudo cp iosevka-font/*.ttc ~/.local/share/fonts/
+fc-cache -fv
